@@ -2,12 +2,16 @@ This project demonstrates a basic client-server application implemented in C++. 
 Compile the server code:
 Server....
 g++ server.cpp -o server
+
 Run the server with a specified port number:
+
 ./server <port_number>
 Client...
+
 Compile the client code:
 
 g++ client.cpp -o client
+
 Run the client with the server's IP address and port number:
 
 ./client <server_ip> <port_number>
